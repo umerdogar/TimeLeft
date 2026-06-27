@@ -90,6 +90,7 @@ export default function EventsScreen() {
             ref={flashListRef}
             key={filteredEvents.length}
             data={filteredEvents}
+            testID="events-list"
             keyExtractor={(item) => item.id}
             // estimatedItemSize={130}
             renderItem={({ item }) => (

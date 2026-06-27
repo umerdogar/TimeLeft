@@ -30,6 +30,7 @@ export function SearchBar({ value, onChangeText, onFilterPress }: Props) {
 
         <TextInput
           style={styles.input}
+          testID="search-input"
           value={value}
           onChangeText={onChangeText}
           placeholder="Search by type, zone or city..."
@@ -51,6 +52,7 @@ export function SearchBar({ value, onChangeText, onFilterPress }: Props) {
       </View>
 
       <TouchableOpacity
+        testID="filter-btn"
         hitSlop={{ top: 20, bottom: 20, left: 10, right: 10 }}
         onPress={onFilterPress}
       >
