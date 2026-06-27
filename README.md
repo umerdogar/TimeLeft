@@ -18,7 +18,7 @@ A React Native + Expo app for browsing and discovering social dining events. Bui
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/TimeLeft.git
+git clone https://github.com/umerdogar/TimeLeft.git
 cd TimeLeft
 
 # Install dependencies
